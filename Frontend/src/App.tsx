@@ -1,14 +1,15 @@
-import Login from './Pages/Login'
+import Login from './Pages/Login';
+// import FirstPage from "./Pages/FirstPage";
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <div>Hello TypeScript</div>
       <Login/>
+      {/* <FirstPage/> */}
     </>
   )
 }
 
-export default App
+export default App;
